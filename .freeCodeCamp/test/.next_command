@@ -1,0 +1,109 @@
+psql --username=freecodecamp --dbname=periodic_table
+touch periodic_table.sql
+psql -U postgres < periodic_table.sql
+mkdir periodic_table
+cd periodic_table
+git init
+git branch
+git branch main
+git checkout -b main
+git status
+touch element.sh
+git status
+git add .
+git status
+git commit -m "Initial commit"
+chmod +x element.sh
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+cd ..
+cd ..
+cd periodic_table
+psql --username=freecodecamp --dbname=periodic_table
+git branch
+git status
+git add .
+git status
+git commit -m "feat: add psql variable"
+./element.sh
+./element.sh
+./element.sh
+./element.sh 5
+./element.sh 5
+./element.sh 5
+./element.sh 5
+./element.sh 5
+./element.sh 9
+./element.sh 9
+./element.sh 9
+./element.sh 11
+./element.sh H
+./element.sh H
+./element.sh H
+./element.sh Hydrogen
+./element.sh Hydrogen
+./element.sh Hydrogen
+./element.sh Hydrogen
+./element.sh Hydrogen
+./element.sh 10
+./element.sh 10
+./element.sh 10
+./element.sh 10
+./element.sh 10
+./element.sh 1
+./element.sh H
+./element.sh H
+./element.sh Hydrogen
+git status
+git add .
+git commit -m "feat: get element"
+git log --oneline
+git log --oneline
+./element.sh Hydrogen
+./element.sh C
+./element.sh
+./element.sh 1
+./element.sh 1
+git log --oneline
+git status
+git add .
+git commit -m "feat: add formatted output"
+git status
+./element.sh He
+./element.sh Helium
+./element.sh Helium
+./element.sh B
+./element.sh Be
+./element.sh Na
+./element.sh Be
+./element.sh Helium
+./element.sh Helium
+./element.sh Helium
+./element.sh Helium
+./element.sh Helium
+./element.sh Helium
+git status
+git status
+git add .
+git commit -m "fix: remove comments"
